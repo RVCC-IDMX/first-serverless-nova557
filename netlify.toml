@@ -3,6 +3,10 @@
   command = "# no build command"
   functions = "netlify/functions"
   publish = "public"
+  port = 8885
+
+[dev]
+  port = 8885
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
